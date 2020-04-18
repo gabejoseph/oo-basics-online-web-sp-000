@@ -4,12 +4,12 @@ class Book
     @title = title
   end
   
-  def initialize(author)
-    @author = author
+  def title=(title)
+    @title = title 
   end
   
-  attr_accessor :title 
-  attr_accessor :author
-  
+  def title 
+    @title 
+  end
   
 end
