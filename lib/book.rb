@@ -20,6 +20,6 @@ class Book
   #   @author 
   # end
   
-  attr_accessor :author, :title, :count, :genre
+  attr_accessor :author, :title, :page, :genre
   
 end
